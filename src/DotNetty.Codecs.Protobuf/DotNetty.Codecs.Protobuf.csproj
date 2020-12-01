@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup Label="NuGet">
-    <TargetFrameworks>netstandard1.3;net45</TargetFrameworks>
+    <TargetFrameworks>netstandard1.3;net45;net5.0</TargetFrameworks>
     <IsPackable>true</IsPackable>
     <PackageId>DotNetty.Codecs.Protobuf</PackageId>
     <Description>Protobuf Proto3 codec for DotNetty</Description>

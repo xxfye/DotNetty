@@ -18,6 +18,7 @@ namespace DotNetty.Handlers.Tls
     using DotNetty.Common.Concurrency;
     using DotNetty.Common.Utilities;
     using DotNetty.Transport.Channels;
+    using TaskCompletionSource = DotNetty.Common.Concurrency.TaskCompletionSource;
 
     public sealed class TlsHandler : ByteToMessageDecoder
     {
