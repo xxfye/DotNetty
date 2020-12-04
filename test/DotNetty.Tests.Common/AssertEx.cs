@@ -25,7 +25,7 @@ namespace DotNetty.Tests.Common
                 {
                     Assert.True(false, "Did not reach expected state in time.");
                 }
-                await Task.Delay(interval);
+                await Task.Yield();
             }
         }
     }

@@ -14,7 +14,7 @@ namespace DotNetty.Handlers.Tests
         public Task WriteToChannelAsync(EmbeddedChannel channel, ArraySegment<byte> input)
         {
             channel.WriteInbound(Unpooled.WrappedBuffer(input.Array, input.Offset, input.Count));
-            return TaskEx.Completed;
+            return Task.CompletedTask;
         }
 
         public override string ToString() => "as-is";
